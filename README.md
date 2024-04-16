@@ -5,8 +5,8 @@ https://github.dev/github/dev
 
 
 docker run -d \
-   --name=chromium \
-   --security-opt seccomp=unconfined `#optional` \
+ --name=chromium \
+ --security-opt seccomp=unconfined `#optional` \
    -e PUID=1000 \
    -e PGID=1000 \
    -e TZ=Etc/UTC \
