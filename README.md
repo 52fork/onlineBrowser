@@ -1,6 +1,6 @@
 # onlineBrowser
 https://github.dev/github/dev
-
+编辑模式复制以下内容在dev在线终端打开
 docker run -d \
   --name=chromium \
   --security-opt seccomp=unconfined `#optional` \
@@ -15,4 +15,3 @@ docker run -d \
   --shm-size="1gb" \
   --restart unless-stopped \
   lscr.io/linuxserver/chromium:latest
-
