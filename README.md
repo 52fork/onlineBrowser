@@ -9,7 +9,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e CHROME_CLI=https://www.linuxserver.io/ `#optional` \
+  -e CHROME_CLI=https://www.google.com/ `#optional` \
   -e TITLE=sabamedia\
   -p 3000:3000 \
   -p 3001:3001 \
