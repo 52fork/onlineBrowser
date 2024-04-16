@@ -1,7 +1,7 @@
 # onlineBrowser
 https://github.dev/github/dev
 
-编辑模式复制以下内容在dev在线终端打开
+源码模式复制以下内容在dev在线终端打开
 
 docker run -d \
   --name=chromium \
